@@ -1,4 +1,3 @@
 
-
 ![screenshot](image/customcommentratingbar.png)
 
