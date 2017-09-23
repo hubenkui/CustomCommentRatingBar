@@ -1,0 +1,4 @@
+
+
+![screenshot](image/customcommentratingbar.png)
+
