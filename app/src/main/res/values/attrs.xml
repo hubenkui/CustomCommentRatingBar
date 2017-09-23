@@ -1,0 +1,14 @@
+<resources>
+
+    <declare-styleable name="RatingBar">
+        <attr name="Width" format="dimension"/>
+        <attr name="Height" format="dimension"/>
+        <attr name="horizontalSpacing" format="dimension"/>
+        <attr name="enabled" format="boolean"/>
+        <attr name="rating" format="integer"/>
+        <attr name="Default" format="reference"/>
+        <attr name="RateBlank" format="reference"/>
+        <attr name="RateSad" format="reference"/>
+        <attr name="RateHappy" format="reference"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ratingbar.customcommentratingbar.CustomCommentRatingBar">
+
+    <com.example.ratingbar.customcommentratingbar.CustomCommentRatingBar
+        android:id="@+id/starBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:Width="50dp"
+        app:Height="50dp"
+        app:Default="@drawable/emojiblank"
+        app:RateBlank="@drawable/emojiblank"
+        app:RateSad="@drawable/emojisad"
+        app:RateHappy="@drawable/emojihappy"
+        app:horizontalSpacing="8dp"
+        android:layout_marginTop="15dp" />
+
+    <com.example.ratingbar.customcommentratingbar.CustomCommentRatingBar
+        android:id="@+id/starBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:Width="50dp"
+        app:Height="50dp"
+        app:Default="@drawable/emojiblank"
+        app:RateBlank="@drawable/emojiblank"
+        app:RateSad="@drawable/emojisad"
+        app:RateHappy="@drawable/emojihappy"
+        app:horizontalSpacing="8dp"
+        android:layout_marginTop="5dp" />
+
+    <com.example.ratingbar.customcommentratingbar.CustomCommentRatingBar
+        android:id="@+id/starBar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:Width="50dp"
+        app:Height="50dp"
+        app:Default="@drawable/emojiblank"
+        app:RateBlank="@drawable/emojiblank"
+        app:RateSad="@drawable/emojisad"
+        app:RateHappy="@drawable/emojihappy"
+        app:horizontalSpacing="8dp"
+        android:layout_marginTop="5dp" />
+</LinearLayout>
